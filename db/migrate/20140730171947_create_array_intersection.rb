@@ -13,7 +13,7 @@ $BODY$
   LANGUAGE sql VOLATILE
   COST 100;
 ALTER FUNCTION public.array_intersection(anyarray, anyarray)
-  OWNER TO CURRENT_USER;
+  OWNER TO current_user;
     SQL
   end
 
